@@ -11,7 +11,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_FILE = "q-fastapi (1).csv"
+DATA_FILE = "q-fastapi.csv"
 
 students = []
 with open(DATA_FILE, newline="", encoding="utf-8") as f:
